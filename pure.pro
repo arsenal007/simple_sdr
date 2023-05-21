@@ -1,4 +1,4 @@
-update=18.05.2023 15:56:01
+update=21.05.2023 11:39:08
 version=1
 last_client=kicad
 [pcbnew]
@@ -79,3 +79,5 @@ LibName36=libs/1_4
 LibName37=libs/1_9
 LibName38=libs/tq2-12vdc
 LibName39=C:/Program Files/KiCad/share/kicad/library/relays
+LibName40=C:/Program Files/KiCad/share/kicad/library/sensors
+LibName41=libs/Sensor_Current
