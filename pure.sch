@@ -37,6 +37,8 @@ LIBS:1_4
 LIBS:1_9
 LIBS:tq2-12vdc
 LIBS:relays
+LIBS:sensors
+LIBS:Sensor_Current
 LIBS:pure-cache
 EELAYER 25 0
 EELAYER END
@@ -53,49 +55,49 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Sheet
-S 3100 3850 2000 1250
+S 3650 2450 2000 1250
 U 615A98E3
 F0 "phase" 60
 F1 "phase.sch" 60
 $EndSheet
 $Sheet
-S 800  3850 2000 1250
+S 1350 2450 2000 1250
 U 615C99B7
 F0 "mixer" 60
 F1 "mixer.sch" 60
 $EndSheet
 $Sheet
-S 3100 2350 2000 1250
+S 3650 950  2000 1250
 U 615DBE66
 F0 "IF(RX)" 60
 F1 "IF.sch" 60
 $EndSheet
 $Sheet
-S 5400 2350 2000 1250
+S 5950 950  2000 1250
 U 615FB5ED
 F0 "IF(TX)" 60
 F1 "IF2.sch" 60
 $EndSheet
 $Sheet
-S 800  5400 1300 600 
+S 1350 3950 2000 1250
 U 61611850
 F0 "VFO" 60
 F1 "VFO.sch" 60
 $EndSheet
 $Sheet
-S 7600 2350 2000 1250
+S 8150 950  2000 1250
 U 616344F8
 F0 "PowerSupply" 60
 F1 "PowerSupply.sch" 60
 $EndSheet
 $Sheet
-S 5400 3850 2000 1250
+S 5950 2450 2000 1250
 U 629E5C8C
 F0 "MAX232" 60
 F1 "MAX232.sch" 60
 $EndSheet
 $Sheet
-S 800  2350 2000 1250
+S 1350 950  2000 1250
 U 64608A9A
 F0 "PA" 60
 F1 "PA.sch" 60

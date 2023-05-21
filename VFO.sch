@@ -37,6 +37,8 @@ LIBS:1_4
 LIBS:1_9
 LIBS:tq2-12vdc
 LIBS:relays
+LIBS:sensors
+LIBS:Sensor_Current
 LIBS:pure-cache
 EELAYER 25 0
 EELAYER END
