@@ -1,0 +1,324 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "74d736cc-15c3-4dc5-ae3c-dc08a689d728")
+	(paper "A4")
+	(title_block
+		(title "Pure TRX")
+		(date "2016-02-18")
+		(rev "1.06")
+		(company "SofterHardware")
+		(comment 1 "Vasyl Kuzmenko")
+	)
+	(lib_symbols)
+	(sheet
+		(at 78.74 97.79)
+		(size 50.8 31.75)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "00000000-0000-0000-0000-0000615a98e3")
+		(property "Sheetname" "phase"
+			(at 78.74 96.9514 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "phase.kicad_sch"
+			(at 78.74 130.2262 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "pure"
+				(path "/74d736cc-15c3-4dc5-ae3c-dc08a689d728"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 20.32 97.79)
+		(size 50.8 31.75)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "00000000-0000-0000-0000-0000615c99b7")
+		(property "Sheetname" "mixer"
+			(at 20.32 96.9514 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mixer.kicad_sch"
+			(at 20.32 130.2262 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "pure"
+				(path "/74d736cc-15c3-4dc5-ae3c-dc08a689d728"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 78.74 59.69)
+		(size 50.8 31.75)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "00000000-0000-0000-0000-0000615dbe66")
+		(property "Sheetname" "IF(RX)"
+			(at 78.74 58.8514 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "IF.kicad_sch"
+			(at 78.74 92.1262 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "pure"
+				(path "/74d736cc-15c3-4dc5-ae3c-dc08a689d728"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 137.16 59.69)
+		(size 50.8 31.75)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "00000000-0000-0000-0000-0000615fb5ed")
+		(property "Sheetname" "IF(TX)"
+			(at 137.16 58.8514 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "IF2.kicad_sch"
+			(at 137.16 92.1262 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "pure"
+				(path "/74d736cc-15c3-4dc5-ae3c-dc08a689d728"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 20.32 137.16)
+		(size 33.02 15.24)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "00000000-0000-0000-0000-000061611850")
+		(property "Sheetname" "VFO"
+			(at 20.32 136.3214 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "VFO.kicad_sch"
+			(at 20.32 153.0862 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "pure"
+				(path "/74d736cc-15c3-4dc5-ae3c-dc08a689d728"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 193.04 59.69)
+		(size 50.8 31.75)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "00000000-0000-0000-0000-0000616344f8")
+		(property "Sheetname" "PowerSupply"
+			(at 193.04 58.8514 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PowerSupply.kicad_sch"
+			(at 193.04 92.1262 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "pure"
+				(path "/74d736cc-15c3-4dc5-ae3c-dc08a689d728"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 137.16 97.79)
+		(size 50.8 31.75)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "00000000-0000-0000-0000-0000629e5c8c")
+		(property "Sheetname" "MAX232"
+			(at 137.16 96.9514 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MAX232.kicad_sch"
+			(at 137.16 130.2262 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "pure"
+				(path "/74d736cc-15c3-4dc5-ae3c-dc08a689d728"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 20.32 59.69)
+		(size 50.8 31.75)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "00000000-0000-0000-0000-000064608a9a")
+		(property "Sheetname" "PA"
+			(at 20.32 58.8514 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PA.kicad_sch"
+			(at 20.32 92.1262 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "pure"
+				(path "/74d736cc-15c3-4dc5-ae3c-dc08a689d728"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
