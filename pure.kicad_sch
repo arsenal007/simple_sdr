@@ -316,6 +316,44 @@
 			)
 		)
 	)
+	(sheet
+		(at 76.835 151.765)
+		(size 41.91 22.86)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0bf8dbcb-4724-420a-8690-605fcacd8a1d")
+		(property "Sheetname" "74HC4053"
+			(at 76.835 151.0534 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "74HC4053.kicad_sch"
+			(at 76.835 175.2096 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "pure"
+				(path "/74d736cc-15c3-4dc5-ae3c-dc08a689d728"
+					(page "10")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
