@@ -100,7 +100,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "00000000-0000-0000-0000-0000615dbe66")
-		(property "Sheetname" "IF(RX)"
+		(property "Sheetname" "IF_RX"
 			(at 78.74 58.8514 0)
 			(effects
 				(font
@@ -160,44 +160,6 @@
 			(project "pure"
 				(path "/74d736cc-15c3-4dc5-ae3c-dc08a689d728"
 					(page "7")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 20.32 137.16)
-		(size 33.02 15.24)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "00000000-0000-0000-0000-000061611850")
-		(property "Sheetname" "VFO"
-			(at 20.32 136.3214 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "VFO.kicad_sch"
-			(at 20.32 153.0862 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "pure"
-				(path "/74d736cc-15c3-4dc5-ae3c-dc08a689d728"
-					(page "4")
 				)
 			)
 		)
@@ -350,6 +312,44 @@
 			(project "pure"
 				(path "/74d736cc-15c3-4dc5-ae3c-dc08a689d728"
 					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 147.574)
+		(size 34.544 24.892)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "716b23b7-f02d-45eb-a839-f7a3dc9476ad")
+		(property "Sheetname" "MCU"
+			(at 25.4 146.8624 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU.kicad_sch"
+			(at 25.4 173.0506 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "pure"
+				(path "/74d736cc-15c3-4dc5-ae3c-dc08a689d728"
+					(page "10")
 				)
 			)
 		)

@@ -1242,13 +1242,13 @@
 		(uuid "39c596ce-e536-4faa-9e8c-a0fa29c5c7b7")
 	)
 	(junction
-		(at 90.17 157.48)
+		(at 85.09 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "566f0b58-8a23-4d77-861f-bc108cfdc7af")
 	)
 	(junction
-		(at 90.17 146.05)
+		(at 85.09 127)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5d7396c8-c14b-4b0a-a479-5b18f0b48f5f")
@@ -1266,7 +1266,7 @@
 		(uuid "89a342cc-11cc-4dc7-a489-3fef25d2d60e")
 	)
 	(junction
-		(at 50.8 157.48)
+		(at 45.72 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8e2288a2-95be-4acc-888d-ac71187b28fe")
@@ -1297,7 +1297,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 157.48) (xy 50.8 161.29)
+			(xy 45.72 138.43) (xy 45.72 142.24)
 		)
 		(stroke
 			(width 0)
@@ -1447,7 +1447,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 146.05) (xy 90.17 137.16)
+			(xy 85.09 127) (xy 85.09 118.11)
 		)
 		(stroke
 			(width 0)
@@ -1567,7 +1567,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 157.48) (xy 90.17 161.29)
+			(xy 85.09 138.43) (xy 85.09 142.24)
 		)
 		(stroke
 			(width 0)
@@ -1697,7 +1697,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 146.05) (xy 90.17 146.05)
+			(xy 45.72 127) (xy 85.09 127)
 		)
 		(stroke
 			(width 0)
@@ -1717,7 +1717,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 146.05) (xy 90.17 157.48)
+			(xy 85.09 127) (xy 85.09 138.43)
 		)
 		(stroke
 			(width 0)
@@ -1747,7 +1747,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 146.05) (xy 50.8 157.48)
+			(xy 45.72 127) (xy 45.72 138.43)
 		)
 		(stroke
 			(width 0)
@@ -1757,7 +1757,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 157.48) (xy 50.8 157.48)
+			(xy 39.37 138.43) (xy 45.72 138.43)
 		)
 		(stroke
 			(width 0)
@@ -1857,7 +1857,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 157.48) (xy 90.17 157.48)
+			(xy 78.74 138.43) (xy 85.09 138.43)
 		)
 		(stroke
 			(width 0)
@@ -1927,7 +1927,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 124.46) (xy 90.17 132.08)
+			(xy 85.09 105.41) (xy 85.09 113.03)
 		)
 		(stroke
 			(width 0)
@@ -2326,7 +2326,7 @@
 	)
 	(symbol
 		(lib_id "Analog_Switch:TS5A63157DBV")
-		(at 90.17 173.99 0)
+		(at 85.09 154.94 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2335,7 +2335,7 @@
 		(fields_autoplaced yes)
 		(uuid "0ee219a7-cd43-46a3-9e33-c5d7ff2bf936")
 		(property "Reference" "U1"
-			(at 95.25 172.7199 0)
+			(at 90.17 153.6699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2344,7 +2344,7 @@
 			)
 		)
 		(property "Value" "SN74LVC1G3157DBVR"
-			(at 95.25 175.2599 0)
+			(at 90.17 156.2099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2353,7 +2353,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 91.44 187.325 0)
+			(at 86.36 168.275 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2363,7 +2363,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/ts5a63157.pdf"
-			(at 91.44 185.42 0)
+			(at 86.36 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2373,7 +2373,7 @@
 			)
 		)
 		(property "Description" "Single SPDT Analog Switch, 5V/3.3V Single-Supply Operation, 12Ohm Ron, SOT-23-6"
-			(at 90.17 173.99 0)
+			(at 85.09 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2382,7 +2382,7 @@
 			)
 		)
 		(property "JLCPCB" "C10426"
-			(at 90.17 173.99 0)
+			(at 85.09 154.94 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2654,7 +2654,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 41.91 157.48 90)
+		(at 36.83 138.43 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2663,7 +2663,7 @@
 		(fields_autoplaced yes)
 		(uuid "1b72d6ce-e6d2-43e5-b51f-95d5e8968b5e")
 		(property "Reference" "C9"
-			(at 41.9163 151.13 90)
+			(at 36.8363 132.08 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2671,7 +2671,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 41.9163 153.67 90)
+			(at 36.8363 134.62 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2679,7 +2679,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 41.91 157.48 0)
+			(at 36.83 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2688,7 +2688,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 41.91 157.48 0)
+			(at 36.83 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2697,7 +2697,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 41.91 157.48 0)
+			(at 36.83 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2706,7 +2706,7 @@
 			)
 		)
 		(property "JLCPCB" "C15849"
-			(at 41.91 157.48 90)
+			(at 36.83 138.43 90)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2731,7 +2731,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 90.17 186.69 0)
+		(at 85.09 167.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2740,7 +2740,7 @@
 		(fields_autoplaced yes)
 		(uuid "1bad1461-8b5b-4f9b-a9f4-2893bfff50cf")
 		(property "Reference" "#PWR05"
-			(at 90.17 193.04 0)
+			(at 85.09 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2749,7 +2749,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 90.17 191.77 0)
+			(at 85.09 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2758,7 +2758,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 90.17 186.69 0)
+			(at 85.09 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2767,7 +2767,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 90.17 186.69 0)
+			(at 85.09 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2776,7 +2776,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 90.17 186.69 0)
+			(at 85.09 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2798,7 +2798,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 90.17 124.46 0)
+		(at 85.09 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2807,7 +2807,7 @@
 		(fields_autoplaced yes)
 		(uuid "2a6d2f89-abdd-405e-9318-2f18812531ac")
 		(property "Reference" "#PWR010"
-			(at 90.17 128.27 0)
+			(at 85.09 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2816,7 +2816,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 90.17 119.38 0)
+			(at 85.09 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2824,7 +2824,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 90.17 124.46 0)
+			(at 85.09 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2833,7 +2833,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 90.17 124.46 0)
+			(at 85.09 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2842,7 +2842,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 90.17 124.46 0)
+			(at 85.09 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3466,7 +3466,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 50.8 186.69 0)
+		(at 45.72 167.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3475,7 +3475,7 @@
 		(fields_autoplaced yes)
 		(uuid "758bb625-2b25-4a32-935a-40abeae4ca3b")
 		(property "Reference" "#PWR06"
-			(at 50.8 193.04 0)
+			(at 45.72 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3484,7 +3484,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 50.8 191.77 0)
+			(at 45.72 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3493,7 +3493,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 50.8 186.69 0)
+			(at 45.72 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3502,7 +3502,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 50.8 186.69 0)
+			(at 45.72 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3511,7 +3511,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 50.8 186.69 0)
+			(at 45.72 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3533,7 +3533,7 @@
 	)
 	(symbol
 		(lib_id "Device:L_Small")
-		(at 90.17 134.62 0)
+		(at 85.09 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3541,7 +3541,7 @@
 		(dnp no)
 		(uuid "796d9ec1-ac11-4776-b73b-7675ce650dfc")
 		(property "Reference" "L1"
-			(at 91.44 133.3499 0)
+			(at 86.36 114.2999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3550,7 +3550,7 @@
 			)
 		)
 		(property "Value" "100uH"
-			(at 91.44 135.8899 0)
+			(at 86.36 116.8399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3559,7 +3559,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_1210_3225Metric_Pad1.42x2.65mm_HandSolder"
-			(at 90.17 134.62 0)
+			(at 85.09 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3568,7 +3568,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 90.17 134.62 0)
+			(at 85.09 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3577,7 +3577,7 @@
 			)
 		)
 		(property "Description" "Inductor, small symbol"
-			(at 90.17 134.62 0)
+			(at 85.09 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3586,7 +3586,7 @@
 			)
 		)
 		(property "JLCPCB" "C394100"
-			(at 90.17 134.62 0)
+			(at 85.09 115.57 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -3688,7 +3688,7 @@
 	)
 	(symbol
 		(lib_id "Analog_Switch:TS5A63157DBV")
-		(at 50.8 173.99 0)
+		(at 45.72 154.94 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3697,7 +3697,7 @@
 		(fields_autoplaced yes)
 		(uuid "7e008ba1-7424-41c8-afbd-ad1e63e9bb5e")
 		(property "Reference" "U2"
-			(at 55.88 172.7199 0)
+			(at 50.8 153.6699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3706,7 +3706,7 @@
 			)
 		)
 		(property "Value" "SN74LVC1G3157DBVR"
-			(at 55.88 175.2599 0)
+			(at 50.8 156.2099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3715,7 +3715,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 52.07 187.325 0)
+			(at 46.99 168.275 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3725,7 +3725,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/ts5a63157.pdf"
-			(at 52.07 185.42 0)
+			(at 46.99 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3735,7 +3735,7 @@
 			)
 		)
 		(property "Description" "Single SPDT Analog Switch, 5V/3.3V Single-Supply Operation, 12Ohm Ron, SOT-23-6"
-			(at 50.8 173.99 0)
+			(at 45.72 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3744,7 +3744,7 @@
 			)
 		)
 		(property "JLCPCB" "C10426"
-			(at 50.8 173.99 0)
+			(at 45.72 154.94 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -4071,7 +4071,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 78.74 157.48 270)
+		(at 73.66 138.43 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4080,7 +4080,7 @@
 		(fields_autoplaced yes)
 		(uuid "b002ff9e-4b96-48c8-b43e-f9fc733b258b")
 		(property "Reference" "#PWR07"
-			(at 72.39 157.48 0)
+			(at 67.31 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4089,7 +4089,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 73.66 157.48 0)
+			(at 68.58 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4098,7 +4098,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 78.74 157.48 0)
+			(at 73.66 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4107,7 +4107,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 78.74 157.48 0)
+			(at 73.66 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4116,7 +4116,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 78.74 157.48 0)
+			(at 73.66 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4741,7 +4741,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 39.37 157.48 270)
+		(at 34.29 138.43 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4750,7 +4750,7 @@
 		(fields_autoplaced yes)
 		(uuid "e3bfbe38-4fb2-4fe7-82d3-7527c6a8c9f2")
 		(property "Reference" "#PWR08"
-			(at 33.02 157.48 0)
+			(at 27.94 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4759,7 +4759,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 34.29 157.48 0)
+			(at 29.21 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4768,7 +4768,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 39.37 157.48 0)
+			(at 34.29 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4777,7 +4777,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 39.37 157.48 0)
+			(at 34.29 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4786,7 +4786,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 39.37 157.48 0)
+			(at 34.29 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4874,7 +4874,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 81.28 157.48 90)
+		(at 76.2 138.43 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4883,7 +4883,7 @@
 		(fields_autoplaced yes)
 		(uuid "fe0e2245-2ada-4680-a3f8-01d5e724c1f2")
 		(property "Reference" "C10"
-			(at 81.2863 151.13 90)
+			(at 76.2063 132.08 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4891,7 +4891,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 81.2863 153.67 90)
+			(at 76.2063 134.62 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4899,7 +4899,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 81.28 157.48 0)
+			(at 76.2 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4908,7 +4908,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 81.28 157.48 0)
+			(at 76.2 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4917,7 +4917,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 81.28 157.48 0)
+			(at 76.2 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4926,7 +4926,7 @@
 			)
 		)
 		(property "JLCPCB" "C14663"
-			(at 81.28 157.48 90)
+			(at 76.2 138.43 90)
 			(effects
 				(font
 					(size 1.524 1.524)
