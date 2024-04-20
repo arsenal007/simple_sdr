@@ -2188,7 +2188,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 88.9 106.68 0)
 			(effects
 				(font
@@ -2211,6 +2211,15 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C25804"
+			(at 88.9 106.68 90)
+			(effects
+				(font
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
