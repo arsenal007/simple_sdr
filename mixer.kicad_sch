@@ -2221,6 +2221,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" "C14663"
+			(at 165.1 76.2 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "30ecc2f7-81ee-43a5-bcc4-f6e49123c70e")
 		)
@@ -2291,7 +2300,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C21122"
+		(property "JLCPCB" "C1604"
 			(at 229.87 77.47 0)
 			(effects
 				(font
@@ -2427,7 +2436,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22nF"
+		(property "Value" "2.2nF"
 			(at 232.41 60.9662 0)
 			(effects
 				(font
@@ -2463,7 +2472,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C21122"
+		(property "JLCPCB" "C1604"
 			(at 229.87 59.69 0)
 			(effects
 				(font
@@ -2506,7 +2515,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22nF"
+		(property "Value" "2.2nF"
 			(at 232.41 95.2562 0)
 			(effects
 				(font
@@ -2542,7 +2551,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C21122"
+		(property "JLCPCB" "C1604"
 			(at 229.87 93.98 0)
 			(effects
 				(font
@@ -2692,6 +2701,15 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C15849"
+			(at 41.91 157.48 90)
+			(effects
+				(font
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -3991,7 +4009,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22nF"
+		(property "Value" "2.2nF"
 			(at 232.41 41.9162 0)
 			(effects
 				(font
@@ -4027,7 +4045,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C21122"
+		(property "JLCPCB" "C1604"
 			(at 229.87 40.64 0)
 			(effects
 				(font
@@ -4247,6 +4265,15 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C14663"
+			(at 133.35 54.61 0)
+			(effects
+				(font
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -4894,6 +4921,15 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C14663"
+			(at 81.28 157.48 90)
+			(effects
+				(font
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
