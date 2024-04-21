@@ -279,7 +279,7 @@
 		)
 	)
 	(sheet
-		(at 76.835 151.765)
+		(at 79.375 146.431)
 		(size 41.91 22.86)
 		(fields_autoplaced yes)
 		(stroke
@@ -291,7 +291,7 @@
 		)
 		(uuid "0bf8dbcb-4724-420a-8690-605fcacd8a1d")
 		(property "Sheetname" "74HC4053"
-			(at 76.835 151.0534 0)
+			(at 79.375 145.7194 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -300,7 +300,7 @@
 			)
 		)
 		(property "Sheetfile" "74HC4053.kicad_sch"
-			(at 76.835 175.2096 0)
+			(at 79.375 169.8756 0)
 			(effects
 				(font
 					(size 1.27 1.27)
