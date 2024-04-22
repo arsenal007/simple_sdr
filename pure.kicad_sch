@@ -203,44 +203,6 @@
 		)
 	)
 	(sheet
-		(at 137.16 97.79)
-		(size 50.8 31.75)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "00000000-0000-0000-0000-0000629e5c8c")
-		(property "Sheetname" "MAX232"
-			(at 137.16 96.9514 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "MAX232.kicad_sch"
-			(at 137.16 130.2262 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "pure"
-				(path "/74d736cc-15c3-4dc5-ae3c-dc08a689d728"
-					(page "8")
-				)
-			)
-		)
-	)
-	(sheet
 		(at 20.32 59.69)
 		(size 50.8 31.75)
 		(fields_autoplaced yes)
@@ -339,6 +301,44 @@
 		)
 		(property "Sheetfile" "MCU.kicad_sch"
 			(at 25.4 173.0506 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "pure"
+				(path "/74d736cc-15c3-4dc5-ae3c-dc08a689d728"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 137.16 97.79)
+		(size 50.546 31.75)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9a1b3552-f49e-450d-a0b3-b14f38660717")
+		(property "Sheetname" "BPF"
+			(at 137.16 97.0784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "BPF.kicad_sch"
+			(at 137.16 130.1246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
