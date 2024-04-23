@@ -1935,8 +1935,8 @@
 		)
 		(uuid "fff2828c-38b3-49bc-ad73-24ea054398e1")
 	)
-	(global_label "BPF"
-		(shape input)
+	(global_label "BPF_OUT"
+		(shape bidirectional)
 		(at 146.05 76.2 180)
 		(fields_autoplaced yes)
 		(effects
@@ -1947,7 +1947,7 @@
 		)
 		(uuid "3f123cbf-babd-4627-a7ee-8fd006312e8c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 138.8989 76.2 0)
+			(at 132.2405 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
