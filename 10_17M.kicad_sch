@@ -586,7 +586,7 @@
 				)
 			)
 		)
-		(symbol "Transistor_BJT:DTC143Z"
+		(symbol "Transistor_BJT:MMBT2222A"
 			(pin_names
 				(offset 0) hide)
 			(exclude_from_sim no)
@@ -601,7 +601,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "DTC143Z"
+			(property "Value" "MMBT2222A"
 				(at 5.08 0 0)
 				(effects
 					(font
@@ -610,7 +610,18 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 5.08 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/MMBT2222A.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -620,17 +631,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "Digital NPN Transistor, 4k7/47k, SOT-23"
+			(property "Description" "600mA Ic, 40V Vce, NPN Transistor, SOT-23"
 				(at 0 0 0)
 				(effects
 					(font
@@ -639,7 +640,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "ROHM Digital NPN Transistor"
+			(property "ki_keywords" "NPN Transistor"
 				(at 0 0 0)
 				(effects
 					(font
@@ -648,7 +649,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "SOT?23* SC?59*"
+			(property "ki_fp_filters" "SOT?23*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -657,51 +658,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "DTC143Z_0_0"
-				(text "47k"
-					(at -2.159 -1.524 900)
-					(effects
-						(font
-							(size 0.508 0.508)
-						)
-					)
-				)
-				(text "4k7"
-					(at -3.302 0.889 0)
-					(effects
-						(font
-							(size 0.508 0.508)
-						)
-					)
-				)
-			)
-			(symbol "DTC143Z_0_1"
-				(circle
-					(center -1.27 0)
-					(radius 0.127)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -1.27 3.175)
-					(mid -4.4312 0)
-					(end -1.27 -3.175)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
+			(symbol "MMBT2222A_0_1"
 				(polyline
 					(pts
-						(xy -3.429 0) (xy -3.81 0)
+						(xy 0.635 0.635) (xy 2.54 2.54)
 					)
 					(stroke
 						(width 0)
@@ -713,31 +673,7 @@
 				)
 				(polyline
 					(pts
-						(xy -1.27 -3.175) (xy 0.635 -3.175)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 3.175) (xy 0.635 3.175)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -0.254) (xy 2.54 2.286)
+						(xy 0.635 -0.635) (xy 2.54 -2.54) (xy 2.54 -2.54)
 					)
 					(stroke
 						(width 0)
@@ -749,43 +685,19 @@
 				)
 				(polyline
 					(pts
-						(xy 0.127 1.524) (xy 0.127 -1.651)
+						(xy 0.635 1.905) (xy 0.635 -1.905) (xy 0.635 -1.905)
 					)
 					(stroke
 						(width 0.508)
 						(type default)
 					)
 					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.286) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
 						(type none)
 					)
 				)
 				(polyline
 					(pts
-						(xy 2.54 -2.286) (xy 0 0.254) (xy 0 0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.889 -1.143) (xy 1.397 -0.635) (xy 1.905 -1.651) (xy 0.889 -1.143)
+						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778) (xy 1.27 -1.778)
 					)
 					(stroke
 						(width 0)
@@ -795,36 +707,9 @@
 						(type outline)
 					)
 				)
-				(polyline
-					(pts
-						(xy 0 0) (xy -1.905 0) (xy -2.032 0.508) (xy -2.286 -0.508) (xy -2.54 0.508) (xy -2.794 -0.508)
-						(xy -3.048 0.508) (xy -3.302 -0.508) (xy -3.429 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy -1.27 -0.381) (xy -0.762 -0.508) (xy -1.778 -0.762) (xy -0.762 -1.016) (xy -1.778 -1.27)
-						(xy -0.762 -1.524) (xy -1.778 -1.778) (xy -1.27 -1.905) (xy -1.27 -2.286) (xy 2.54 -2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0.635 -3.175)
-					(mid 3.7962 0)
-					(end 0.635 3.175)
+				(circle
+					(center 1.27 0)
+					(radius 2.8194)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -833,22 +718,11 @@
 						(type none)
 					)
 				)
-				(circle
-					(center 2.54 -2.286)
-					(radius 0.127)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 			)
-			(symbol "DTC143Z_1_1"
+			(symbol "MMBT2222A_1_1"
 				(pin input line
-					(at -6.35 0 0)
-					(length 2.54)
+					(at -5.08 0 0)
+					(length 5.715)
 					(name "B"
 						(effects
 							(font
@@ -1024,6 +898,12 @@
 		(uuid "83f38e11-41a4-4165-86f8-3f088fd24dca")
 	)
 	(junction
+		(at 187.96 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b9bf2c0b-86ea-4cbc-a99d-9340ae1b9f9f")
+	)
+	(junction
 		(at 158.75 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1034,6 +914,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c99c4ad3-e76b-4b47-895e-6a0b72c44707")
+	)
+	(junction
+		(at 127 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fe5a9016-b1d3-47fc-85e3-23dcf0252db6")
 	)
 	(wire
 		(pts
@@ -1047,13 +933,23 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 123.19) (xy 195.58 123.19)
+			(xy 199.39 123.19) (xy 209.55 123.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "0b2c62f1-c18c-4eac-af36-8c8a80b85931")
+	)
+	(wire
+		(pts
+			(xy 187.96 123.19) (xy 187.96 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2544c782-f026-4b48-b5be-720ec4142050")
 	)
 	(wire
 		(pts
@@ -1077,6 +973,16 @@
 	)
 	(wire
 		(pts
+			(xy 187.96 123.19) (xy 194.31 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ea53245-83bc-429a-b148-7fc65dc0adf2")
+	)
+	(wire
+		(pts
 			(xy 147.32 90.17) (xy 158.75 90.17)
 		)
 		(stroke
@@ -1094,6 +1000,16 @@
 			(type default)
 		)
 		(uuid "665303c8-e434-453d-985a-930bce321a61")
+	)
+	(wire
+		(pts
+			(xy 127 113.03) (xy 158.75 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e94e9be-922a-4724-859a-6587185e94a0")
 	)
 	(wire
 		(pts
@@ -1167,6 +1083,26 @@
 	)
 	(wire
 		(pts
+			(xy 127 113.03) (xy 127 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b27e74ed-c30c-4c86-abaa-77161c4f3d18")
+	)
+	(wire
+		(pts
+			(xy 184.15 123.19) (xy 187.96 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf028849-76c2-42ef-b069-79885ebaf3fa")
+	)
+	(wire
+		(pts
 			(xy 115.57 90.17) (xy 100.33 90.17)
 		)
 		(stroke
@@ -1237,7 +1173,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 113.03) (xy 158.75 113.03)
+			(xy 100.33 113.03) (xy 127 113.03)
 		)
 		(stroke
 			(width 0)
@@ -1269,7 +1205,7 @@
 	)
 	(global_label "BPF_10_17M"
 		(shape input)
-		(at 195.58 123.19 0)
+		(at 209.55 123.19 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1279,7 +1215,7 @@
 		)
 		(uuid "8616b5c2-9ff3-4cef-875b-920319257165")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 212.6006 123.19 0)
+			(at 226.5706 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1334,6 +1270,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 127 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "01b1a17e-e1ee-46bf-8f04-c85ad8818982")
+		(property "Reference" "C32"
+			(at 129.54 116.8462 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 129.54 119.3862 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SDR_footprints:C_1206_0603"
+			(at 127 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 127 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 127 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "62574bca-90d7-4f5f-afd7-aa3ea1ef3411")
+		)
+		(pin "2"
+			(uuid "1967d431-1338-47b6-8a7f-8cb4d2ba24ad")
+		)
+		(instances
+			(project "pure"
+				(path "/74d736cc-15c3-4dc5-ae3c-dc08a689d728/9a1b3552-f49e-450d-a0b3-b14f38660717/fb6dd591-e867-49e0-951a-f047df021305"
+					(reference "C32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:L_Small")
 		(at 135.89 90.17 90)
 		(unit 1)
@@ -1359,7 +1365,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_1210_3225Metric_Pad1.42x2.65mm_HandSolder"
+		(property "Footprint" "SDR_footprints:Resistor_SMD+THTuniversal_0603to2512_RM10_HandSoldering"
 			(at 135.89 90.17 0)
 			(effects
 				(font
@@ -1386,15 +1392,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C89029"
-			(at 135.89 90.17 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "cb0a9747-3852-4bbf-a1d0-e79c33ecb160")
 		)
@@ -1405,6 +1402,76 @@
 			(project "pure"
 				(path "/74d736cc-15c3-4dc5-ae3c-dc08a689d728/9a1b3552-f49e-450d-a0b3-b14f38660717/fb6dd591-e867-49e0-951a-f047df021305"
 					(reference "L7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 187.96 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "280ea6b3-9eda-4174-993d-603ad4204217")
+		(property "Reference" "C26"
+			(at 190.5 127.0062 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22..47nF"
+			(at 190.5 129.5462 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SDR_footprints:C_1206_0603"
+			(at 187.96 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 187.96 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 187.96 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b2f867a7-d206-49ab-b49a-7e7170b85f5a")
+		)
+		(pin "2"
+			(uuid "538de092-1eb0-4521-ab28-962d786c9fd1")
+		)
+		(instances
+			(project "pure"
+				(path "/74d736cc-15c3-4dc5-ae3c-dc08a689d728/9a1b3552-f49e-450d-a0b3-b14f38660717/fb6dd591-e867-49e0-951a-f047df021305"
+					(reference "C26")
 					(unit 1)
 				)
 			)
@@ -1438,7 +1505,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "SDR_footprints:C_1206_0603"
 			(at 86.36 97.79 0)
 			(effects
 				(font
@@ -1515,7 +1582,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "SDR_footprints:R_1206_0603"
 			(at 85.09 113.03 0)
 			(effects
 				(font
@@ -1567,6 +1634,83 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_BJT:MMBT2222A")
+		(at 179.07 123.19 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6cf5a95d-a0bd-47ad-bc85-e4740a3f121b")
+		(property "Reference" "Q6"
+			(at 173.99 121.9199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MMBT2222A"
+			(at 173.99 124.4599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 173.99 125.095 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/MMBT2222A.pdf"
+			(at 179.07 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "600mA Ic, 40V Vce, NPN Transistor, SOT-23"
+			(at 179.07 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b22dcf77-9955-4dad-b7f2-49fb8a6ce9fc")
+		)
+		(pin "1"
+			(uuid "d471d566-26de-44a3-b8e8-f8a8e5398148")
+		)
+		(pin "3"
+			(uuid "92969387-b14d-4ecd-b0ba-38a03d50250d")
+		)
+		(instances
+			(project "pure"
+				(path "/74d736cc-15c3-4dc5-ae3c-dc08a689d728/9a1b3552-f49e-450d-a0b3-b14f38660717/fb6dd591-e867-49e0-951a-f047df021305"
+					(reference "Q6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 147.32 99.06 0)
 		(unit 1)
@@ -1594,7 +1738,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "SDR_footprints:C_1206_0603"
 			(at 147.32 99.06 0)
 			(effects
 				(font
@@ -1646,6 +1790,141 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 196.85 123.19 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7968dddf-1ede-4c01-9ce2-1e75c5989b63")
+		(property "Reference" "R29"
+			(at 196.85 118.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2..4.7k"
+			(at 196.85 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SDR_footprints:R_1206_0603"
+			(at 196.85 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 196.85 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 196.85 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b1885f0a-5fcd-479a-85f5-866a13dd181f")
+		)
+		(pin "2"
+			(uuid "e7c38f4d-6ab0-4bcb-b4f6-32b0a892ed9d")
+		)
+		(instances
+			(project "pure"
+				(path "/74d736cc-15c3-4dc5-ae3c-dc08a689d728/9a1b3552-f49e-450d-a0b3-b14f38660717/fb6dd591-e867-49e0-951a-f047df021305"
+					(reference "R29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 187.96 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7f9478a6-0f65-4522-acec-728b934868ef")
+		(property "Reference" "#PWR049"
+			(at 187.96 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 187.96 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 187.96 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 187.96 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f1ec87c3-f1e5-45ef-8647-9ef112c06ca4")
+		)
+		(instances
+			(project "pure"
+				(path "/74d736cc-15c3-4dc5-ae3c-dc08a689d728/9a1b3552-f49e-450d-a0b3-b14f38660717/fb6dd591-e867-49e0-951a-f047df021305"
+					(reference "#PWR049")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 118.11 90.17 90)
 		(unit 1)
@@ -1671,7 +1950,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "SDR_footprints:C_1206_0603"
 			(at 118.11 90.17 0)
 			(effects
 				(font
@@ -1817,7 +2096,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_1210_3225Metric_Pad1.42x2.65mm_HandSolder"
+		(property "Footprint" "SDR_footprints:Resistor_SMD+THTuniversal_0603to2512_RM10_HandSoldering"
 			(at 158.75 99.06 0)
 			(effects
 				(font
@@ -1840,15 +2119,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB" "C89026"
-			(at 158.75 99.06 0)
-			(effects
-				(font
-					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -1964,91 +2234,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:DTC143Z")
-		(at 179.07 123.19 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bc3a1f16-63f8-4e40-88bc-cd80679fd45d")
-		(property "Reference" "Q5"
-			(at 173.99 121.9199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "DTC143Z"
-			(at 173.99 124.4599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-523"
-			(at 179.07 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 179.07 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "Digital NPN Transistor, 4k7/47k, SOT-23"
-			(at 179.07 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB" "C2828442"
-			(at 179.07 123.19 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "6242738c-16df-42ff-9c36-0c5544f26096")
-		)
-		(pin "2"
-			(uuid "91e60e7e-3474-4995-bc79-f4765bba4c7b")
-		)
-		(pin "1"
-			(uuid "ab4b7f56-8a6c-4ce8-a898-f97c1a078095")
-		)
-		(instances
-			(project "pure"
-				(path "/74d736cc-15c3-4dc5-ae3c-dc08a689d728/9a1b3552-f49e-450d-a0b3-b14f38660717/fb6dd591-e867-49e0-951a-f047df021305"
-					(reference "Q5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 176.53 128.27 0)
 		(unit 1)
@@ -2116,6 +2301,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 127 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c5711fdf-2c3b-4e7d-8f9d-bdcee63657e3")
+		(property "Reference" "#PWR055"
+			(at 127 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 127 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 127 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "57f7fc3e-6f63-4a45-b912-509e750cb545")
+		)
+		(instances
+			(project "pure"
+				(path "/74d736cc-15c3-4dc5-ae3c-dc08a689d728/9a1b3552-f49e-450d-a0b3-b14f38660717/fb6dd591-e867-49e0-951a-f047df021305"
+					(reference "#PWR055")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:L_Small")
 		(at 100.33 97.79 0)
 		(unit 1)
@@ -2143,7 +2395,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_1210_3225Metric_Pad1.42x2.65mm_HandSolder"
+		(property "Footprint" "SDR_footprints:Resistor_SMD+THTuniversal_0603to2512_RM10_HandSoldering"
 			(at 100.33 97.79 0)
 			(effects
 				(font
@@ -2166,15 +2418,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB" "C89026"
-			(at 100.33 97.79 0)
-			(effects
-				(font
-					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
