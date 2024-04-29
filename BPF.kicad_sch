@@ -1870,7 +1870,7 @@
 		)
 	)
 	(sheet
-		(at 77.978 81.788)
+		(at 20.32 68.58)
 		(size 29.464 17.018)
 		(fields_autoplaced yes)
 		(stroke
@@ -1882,7 +1882,7 @@
 		)
 		(uuid "0a42c9d1-9f64-48cb-b615-b7c51a7a5625")
 		(property "Sheetname" "40M"
-			(at 77.978 81.0764 0)
+			(at 20.32 67.8684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1891,7 +1891,7 @@
 			)
 		)
 		(property "Sheetfile" "40M.kicad_sch"
-			(at 77.978 99.3906 0)
+			(at 20.32 86.1826 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1908,7 +1908,45 @@
 		)
 	)
 	(sheet
-		(at 77.47 59.69)
+		(at 20.32 115.57)
+		(size 29.21 15.24)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2a846ab4-f197-4eb3-b176-503a822ca5c6")
+		(property "Sheetname" "ATT"
+			(at 20.32 114.8584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ATT.kicad_sch"
+			(at 20.32 131.3946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "pure"
+				(path "/74d736cc-15c3-4dc5-ae3c-dc08a689d728/9a1b3552-f49e-450d-a0b3-b14f38660717"
+					(page "15")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 19.812 46.482)
 		(size 29.718 15.748)
 		(fields_autoplaced yes)
 		(stroke
@@ -1920,7 +1958,7 @@
 		)
 		(uuid "3060f9c8-4de0-43a0-a504-67d4a48350b2")
 		(property "Sheetname" "20M"
-			(at 77.47 58.9784 0)
+			(at 19.812 45.7704 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1929,7 +1967,7 @@
 			)
 		)
 		(property "Sheetfile" "20M.kicad_sch"
-			(at 77.47 76.0226 0)
+			(at 19.812 62.8146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1946,7 +1984,7 @@
 		)
 	)
 	(sheet
-		(at 77.978 104.902)
+		(at 20.32 91.694)
 		(size 29.718 16.51)
 		(fields_autoplaced yes)
 		(stroke
@@ -1958,7 +1996,7 @@
 		)
 		(uuid "71095882-c426-4aab-a778-d84b26ad4d30")
 		(property "Sheetname" "80M"
-			(at 77.978 104.1904 0)
+			(at 20.32 90.9824 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1967,7 +2005,7 @@
 			)
 		)
 		(property "Sheetfile" "80M.kicad_sch"
-			(at 77.978 121.9966 0)
+			(at 20.32 108.7886 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1984,7 +2022,7 @@
 		)
 	)
 	(sheet
-		(at 77.47 37.084)
+		(at 19.812 23.876)
 		(size 29.718 15.24)
 		(fields_autoplaced yes)
 		(stroke
@@ -1996,7 +2034,7 @@
 		)
 		(uuid "fb6dd591-e867-49e0-951a-f047df021305")
 		(property "Sheetname" "10..17M"
-			(at 77.47 36.3724 0)
+			(at 19.812 23.1644 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2005,7 +2043,7 @@
 			)
 		)
 		(property "Sheetfile" "10_17M.kicad_sch"
-			(at 77.47 52.9086 0)
+			(at 19.812 39.7006 0)
 			(effects
 				(font
 					(size 1.27 1.27)
