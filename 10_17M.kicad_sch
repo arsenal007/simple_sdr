@@ -1582,7 +1582,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SDR_footprints:R_1206_0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 85.09 113.03 0)
 			(effects
 				(font
@@ -1784,74 +1784,6 @@
 			(project "pure"
 				(path "/74d736cc-15c3-4dc5-ae3c-dc08a689d728/9a1b3552-f49e-450d-a0b3-b14f38660717/fb6dd591-e867-49e0-951a-f047df021305"
 					(reference "C24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 196.85 123.19 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7968dddf-1ede-4c01-9ce2-1e75c5989b63")
-		(property "Reference" "R29"
-			(at 196.85 118.11 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "2..4.7k"
-			(at 196.85 120.65 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SDR_footprints:R_1206_0603"
-			(at 196.85 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 196.85 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 196.85 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b1885f0a-5fcd-479a-85f5-866a13dd181f")
-		)
-		(pin "2"
-			(uuid "e7c38f4d-6ab0-4bcb-b4f6-32b0a892ed9d")
-		)
-		(instances
-			(project "pure"
-				(path "/74d736cc-15c3-4dc5-ae3c-dc08a689d728/9a1b3552-f49e-450d-a0b3-b14f38660717/fb6dd591-e867-49e0-951a-f047df021305"
-					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -2228,6 +2160,74 @@
 			(project "pure"
 				(path "/74d736cc-15c3-4dc5-ae3c-dc08a689d728/9a1b3552-f49e-450d-a0b3-b14f38660717/fb6dd591-e867-49e0-951a-f047df021305"
 					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 196.85 123.19 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b3c01d68-a0a0-4d25-b04b-337623874440")
+		(property "Reference" "R29"
+			(at 196.85 118.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2..4.7k"
+			(at 196.85 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SDR_footprints:R_1206_0603"
+			(at 196.85 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 196.85 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 196.85 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e5708b41-c3c0-4c7b-b84c-d6de816cad71")
+		)
+		(pin "2"
+			(uuid "2a937922-0796-4471-b13d-8823b2a4669c")
+		)
+		(instances
+			(project "pure"
+				(path "/74d736cc-15c3-4dc5-ae3c-dc08a689d728/9a1b3552-f49e-450d-a0b3-b14f38660717/fb6dd591-e867-49e0-951a-f047df021305"
+					(reference "R29")
 					(unit 1)
 				)
 			)

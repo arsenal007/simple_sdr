@@ -2273,7 +2273,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SDR_footprints:C_1206_0603"
 			(at 229.87 77.47 0)
 			(effects
 				(font
@@ -2445,7 +2445,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SDR_footprints:C_1206_0603"
 			(at 229.87 59.69 0)
 			(effects
 				(font
@@ -2524,7 +2524,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SDR_footprints:C_1206_0603"
 			(at 229.87 93.98 0)
 			(effects
 				(font
@@ -2601,7 +2601,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SDR_footprints:R_1206_0603"
 			(at 222.25 54.61 0)
 			(effects
 				(font
@@ -3124,7 +3124,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SDR_footprints:R_1206_0603"
 			(at 222.25 88.9 0)
 			(effects
 				(font
@@ -3624,7 +3624,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_1210_3225Metric_Pad1.42x2.65mm_HandSolder"
+		(property "Footprint" "Inductor_THT:L_Axial_L5.3mm_D2.2mm_P10.16mm_Horizontal_Vishay_IM-1"
 			(at 85.09 115.57 0)
 			(effects
 				(font
@@ -4084,7 +4084,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SDR_footprints:C_1206_0603"
 			(at 229.87 40.64 0)
 			(effects
 				(font
@@ -4229,7 +4229,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_1210_3225Metric_Pad1.42x2.65mm_HandSolder"
+		(property "Footprint" "Inductor_THT:L_Axial_L5.3mm_D2.2mm_P10.16mm_Horizontal_Vishay_IM-1"
 			(at 166.37 48.26 0)
 			(effects
 				(font
@@ -4385,7 +4385,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "SDR_footprints:R_1206_0603"
 			(at 222.25 35.56 0)
 			(effects
 				(font
@@ -4754,7 +4754,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SDR_footprints:R_1206_0603"
 			(at 222.25 72.39 0)
 			(effects
 				(font

@@ -4793,7 +4793,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 78.74 45.72 180)
+		(at 78.74 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4807,7 +4807,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "100"
@@ -4816,7 +4816,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"

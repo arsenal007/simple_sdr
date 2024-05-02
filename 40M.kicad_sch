@@ -1817,7 +1817,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SDR_footprints:C_1206_0603"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 137.16 72.39 0)
 			(effects
 				(font
@@ -2901,7 +2901,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SDR_footprints:R_1206_0603"
 			(at 215.9 105.41 0)
 			(effects
 				(font
